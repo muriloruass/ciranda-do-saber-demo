@@ -11,11 +11,13 @@
   --color-primary: #FF8C42;           /* Papaya Orange - Main brand color */
   --color-primary-light: #FFB366;     /* Lighter orange for hover states */
   --color-primary-dark: #E67A2E;      /* Darker orange for active states */
+  --color-primary-rgb: 255, 140, 66;  /* RGB values for alpha usage */
   
   /* Secondary Colors */
   --color-secondary: #4A90E2;         /* Blue - Secondary elements */
   --color-secondary-light: #6BA3E8;   /* Light blue for backgrounds */
   --color-secondary-dark: #3A7BC8;    /* Dark blue for emphasis */
+  --color-secondary-rgb: 74, 144, 226; /* RGB values for alpha usage */
   
   /* Accent Colors */
   --color-accent: #7CB342;            /* Green - Success/positive states */
@@ -40,7 +42,20 @@
   --color-success: var(--color-accent);        /* Green for success */
   --color-warning: #F59E0B;                    /* Amber for warnings */
   --color-error: #EF4444;                      /* Red for errors */
+  --color-danger: #EF4444;                     /* Red for danger actions */
   --color-info: var(--color-secondary);        /* Blue for info */
+  
+  /* Text Colors */
+  --color-text-primary: var(--color-gray-900);     /* Main text color */
+  --color-text-secondary: var(--color-gray-600);   /* Secondary text color */
+  --color-text-muted: var(--color-gray-500);       /* Muted text color */
+  --color-text-primary-rgb: 17, 24, 39;            /* RGB for primary text */
+  --color-text-secondary-rgb: 75, 85, 99;          /* RGB for secondary text */
+  
+  /* Background Colors */
+  --color-background: var(--color-gray-50);        /* Main background */
+  --color-background-alt: var(--color-white);      /* Alternative background */
+  --color-border: var(--color-gray-200);           /* Border color */
   
   /* ============================================
      Typography Scale
