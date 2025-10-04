@@ -1,0 +1,53 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "label": "🚀 Start Development Server",
+      "detail": "Launch the React app with hot reload",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "default"
+      }
+    },
+    {
+      "type": "npm", 
+      "script": "build",
+      "group": "build",
+      "label": "📦 Build for Production",
+      "detail": "Create optimized production build",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "new"
+      }
+    },
+    {
+      "type": "npm",
+      "script": "test", 
+      "group": "test",
+      "label": "🧪 Run Tests",
+      "detail": "Execute test suite",
+      "presentation": {
+        "echo": true,
+        "reveal": "always", 
+        "focus": false,
+        "panel": "new"
+      }
+    }
+  ]
+}

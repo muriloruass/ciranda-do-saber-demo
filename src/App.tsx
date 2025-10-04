@@ -1,5 +1,6 @@
 import React from 'react';
 import cirandaLogo from './assets/ciranda-logo.png';
+import { Button } from './components';
 
 function App() {
   return (
@@ -38,6 +39,11 @@ function App() {
                   <p className="body-text">
                     Manage student registrations, profiles, and academic records.
                   </p>
+                  <div className="mt-4">
+                    <Button variant="secondary" size="small">
+                      View Students
+                    </Button>
+                  </div>
                 </div>
               </div>
 
@@ -49,6 +55,11 @@ function App() {
                   <p className="body-text">
                     Track payments, generate invoices, and manage financial records.
                   </p>
+                  <div className="mt-4">
+                    <Button variant="success" size="small">
+                      View Payments
+                    </Button>
+                  </div>
                 </div>
               </div>
 
@@ -60,6 +71,69 @@ function App() {
                   <p className="body-text">
                     Generate comprehensive reports and analytics for decision making.
                   </p>
+                  <div className="mt-4">
+                    <Button variant="primary" size="small">
+                      View Reports
+                    </Button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="section">
+            <div className="section-header">
+              <h2 className="section-title brand-blue">
+                Button Components Demo
+              </h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="heading-4 mb-4">Button Variants</h3>
+                <div className="flex flex-wrap gap-3">
+                  <Button variant="primary">Primary</Button>
+                  <Button variant="secondary">Secondary</Button>
+                  <Button variant="success">Success</Button>
+                  <Button variant="outline">Outline</Button>
+                  <Button variant="ghost">Ghost</Button>
+                  <Button variant="danger">Danger</Button>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="heading-4 mb-4">Button Sizes</h3>
+                <div className="flex flex-wrap items-center gap-3">
+                  <Button variant="primary" size="small">Small</Button>
+                  <Button variant="primary" size="medium">Medium</Button>
+                  <Button variant="primary" size="large">Large</Button>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="heading-4 mb-4">Button States</h3>
+                <div className="flex flex-wrap gap-3">
+                  <Button variant="primary" loading>Loading...</Button>
+                  <Button variant="secondary" disabled>Disabled</Button>
+                  <Button variant="outline" fullWidth>Full Width</Button>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="heading-4 mb-4">Interactive Examples</h3>
+                <div className="flex flex-wrap gap-3">
+                  <Button 
+                    variant="success" 
+                    onClick={() => alert('Student added!')}
+                  >
+                    Add Student
+                  </Button>
+                  <Button 
+                    variant="outline" 
+                    onClick={() => alert('Report generated!')}
+                  >
+                    Generate Report
+                  </Button>
                 </div>
               </div>
             </div>
