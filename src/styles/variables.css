@@ -1,0 +1,209 @@
+/* ==========================================================================
+   Design System Variables
+   ========================================================================== */
+
+:root {
+  /* ============================================
+     Color Palette - Ciranda do Saber Brand
+     ============================================ */
+  
+  /* Primary Colors */
+  --color-primary: #FF8C42;           /* Papaya Orange - Main brand color */
+  --color-primary-light: #FFB366;     /* Lighter orange for hover states */
+  --color-primary-dark: #E67A2E;      /* Darker orange for active states */
+  
+  /* Secondary Colors */
+  --color-secondary: #4A90E2;         /* Blue - Secondary elements */
+  --color-secondary-light: #6BA3E8;   /* Light blue for backgrounds */
+  --color-secondary-dark: #3A7BC8;    /* Dark blue for emphasis */
+  
+  /* Accent Colors */
+  --color-accent: #7CB342;            /* Green - Success/positive states */
+  --color-accent-light: #95C968;      /* Light green for backgrounds */
+  --color-accent-dark: #689F36;       /* Dark green for emphasis */
+  
+  /* Neutral Colors */
+  --color-white: #FFFFFF;             /* Pure white */
+  --color-gray-50: #F9FAFB;           /* Very light gray - backgrounds */
+  --color-gray-100: #F3F4F6;          /* Light gray - borders */
+  --color-gray-200: #E5E7EB;          /* Border gray */
+  --color-gray-300: #D1D5DB;          /* Disabled elements */
+  --color-gray-400: #9CA3AF;          /* Placeholder text */
+  --color-gray-500: #6B7280;          /* Secondary text */
+  --color-gray-600: #4B5563;          /* Body text */
+  --color-gray-700: #374151;          /* Headings */
+  --color-gray-800: #1F2937;          /* Dark text */
+  --color-gray-900: #111827;          /* Darkest text */
+  --color-black: #000000;             /* Pure black */
+  
+  /* Semantic Colors */
+  --color-success: var(--color-accent);        /* Green for success */
+  --color-warning: #F59E0B;                    /* Amber for warnings */
+  --color-error: #EF4444;                      /* Red for errors */
+  --color-info: var(--color-secondary);        /* Blue for info */
+  
+  /* ============================================
+     Typography Scale
+     ============================================ */
+  
+  /* Font Families */
+  --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-family-heading: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  --font-family-mono: 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  
+  /* Font Sizes */
+  --font-size-xs: 0.75rem;      /* 12px */
+  --font-size-sm: 0.875rem;     /* 14px */
+  --font-size-base: 1rem;       /* 16px */
+  --font-size-lg: 1.125rem;     /* 18px */
+  --font-size-xl: 1.25rem;      /* 20px */
+  --font-size-2xl: 1.5rem;      /* 24px */
+  --font-size-3xl: 1.875rem;    /* 30px */
+  --font-size-4xl: 2.25rem;     /* 36px */
+  --font-size-5xl: 3rem;        /* 48px */
+  --font-size-6xl: 3.75rem;     /* 60px */
+  
+  /* Font Weights */
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  
+  /* Line Heights */
+  --line-height-tight: 1.25;
+  --line-height-snug: 1.375;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.625;
+  --line-height-loose: 2;
+  
+  /* ============================================
+     Spacing Scale
+     ============================================ */
+  
+  --spacing-0: 0;
+  --spacing-px: 1px;
+  --spacing-0_5: 0.125rem;    /* 2px */
+  --spacing-1: 0.25rem;       /* 4px */
+  --spacing-1_5: 0.375rem;    /* 6px */
+  --spacing-2: 0.5rem;        /* 8px */
+  --spacing-2_5: 0.625rem;    /* 10px */
+  --spacing-3: 0.75rem;       /* 12px */
+  --spacing-3_5: 0.875rem;    /* 14px */
+  --spacing-4: 1rem;          /* 16px */
+  --spacing-5: 1.25rem;       /* 20px */
+  --spacing-6: 1.5rem;        /* 24px */
+  --spacing-7: 1.75rem;       /* 28px */
+  --spacing-8: 2rem;          /* 32px */
+  --spacing-9: 2.25rem;       /* 36px */
+  --spacing-10: 2.5rem;       /* 40px */
+  --spacing-11: 2.75rem;      /* 44px */
+  --spacing-12: 3rem;         /* 48px */
+  --spacing-14: 3.5rem;       /* 56px */
+  --spacing-16: 4rem;         /* 64px */
+  --spacing-20: 5rem;         /* 80px */
+  --spacing-24: 6rem;         /* 96px */
+  --spacing-28: 7rem;         /* 112px */
+  --spacing-32: 8rem;         /* 128px */
+  --spacing-36: 9rem;         /* 144px */
+  --spacing-40: 10rem;        /* 160px */
+  --spacing-44: 11rem;        /* 176px */
+  --spacing-48: 12rem;        /* 192px */
+  --spacing-52: 13rem;        /* 208px */
+  --spacing-56: 14rem;        /* 224px */
+  --spacing-60: 15rem;        /* 240px */
+  --spacing-64: 16rem;        /* 256px */
+  --spacing-72: 18rem;        /* 288px */
+  --spacing-80: 20rem;        /* 320px */
+  --spacing-96: 24rem;        /* 384px */
+  
+  /* ============================================
+     Border Radius
+     ============================================ */
+  
+  --border-radius-none: 0;
+  --border-radius-sm: 0.125rem;     /* 2px */
+  --border-radius-base: 0.25rem;    /* 4px */
+  --border-radius-md: 0.375rem;     /* 6px */
+  --border-radius-lg: 0.5rem;       /* 8px */
+  --border-radius-xl: 0.75rem;      /* 12px */
+  --border-radius-2xl: 1rem;        /* 16px */
+  --border-radius-3xl: 1.5rem;      /* 24px */
+  --border-radius-full: 9999px;     /* Fully rounded */
+  
+  /* ============================================
+     Shadows
+     ============================================ */
+  
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-base: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
+  
+  /* ============================================
+     Z-Index Scale
+     ============================================ */
+  
+  --z-index-auto: auto;
+  --z-index-0: 0;
+  --z-index-10: 10;
+  --z-index-20: 20;
+  --z-index-30: 30;
+  --z-index-40: 40;
+  --z-index-50: 50;
+  --z-index-dropdown: 1000;
+  --z-index-sticky: 1020;
+  --z-index-fixed: 1030;
+  --z-index-modal-backdrop: 1040;
+  --z-index-modal: 1050;
+  --z-index-popover: 1060;
+  --z-index-tooltip: 1070;
+  --z-index-toast: 1080;
+  
+  /* ============================================
+     Transitions
+     ============================================ */
+  
+  --transition-duration-75: 75ms;
+  --transition-duration-100: 100ms;
+  --transition-duration-150: 150ms;
+  --transition-duration-200: 200ms;
+  --transition-duration-300: 300ms;
+  --transition-duration-500: 500ms;
+  --transition-duration-700: 700ms;
+  --transition-duration-1000: 1000ms;
+  
+  --transition-timing-ease: ease;
+  --transition-timing-ease-in: ease-in;
+  --transition-timing-ease-out: ease-out;
+  --transition-timing-ease-in-out: ease-in-out;
+  --transition-timing-linear: linear;
+  
+  /* Common transition combinations */
+  --transition-fast: all var(--transition-duration-150) var(--transition-timing-ease-out);
+  --transition-base: all var(--transition-duration-200) var(--transition-timing-ease-out);
+  --transition-slow: all var(--transition-duration-300) var(--transition-timing-ease-out);
+}
+
+/* ============================================
+   Dark Mode Variables (for future use)
+   ============================================ */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray-50: #111827;
+    --color-gray-100: #1F2937;
+    --color-gray-200: #374151;
+    --color-gray-300: #4B5563;
+    --color-gray-400: #6B7280;
+    --color-gray-500: #9CA3AF;
+    --color-gray-600: #D1D5DB;
+    --color-gray-700: #E5E7EB;
+    --color-gray-800: #F3F4F6;
+    --color-gray-900: #F9FAFB;
+  }
+}
