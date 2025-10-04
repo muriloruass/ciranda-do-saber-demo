@@ -1,121 +1,136 @@
-# 🎓 Ciranda do Saber - Demo Gestão Escolar
+# 🎓 Ciranda do Saber - School Management Demo
 
 <!-- ![Ciranda do Saber Logo](src/assets/logo-ciranda.png) -->
-*Logo será adicionada em breve*
+*Logo will be added soon*
 
-> **DEMO** de aplicação web para gestão escolar desenvolvida para aprendizado pessoal e demonstração de habilidades em React + TypeScript.
+> **DEMO** school management web application developed for personal learning and showcasing React + TypeScript skills.
 
-## 📋 Sobre o Projeto
+## 📋 About the Project
 
-Este é um **projeto educacional** que simula um sistema de gestão escolar moderno, criado para:
+This is an **educational project** that simulates a modern school management system, created to:
 
-- 🎯 **Aprender** desenvolvimento React com TypeScript
-- 🏗️ **Praticar** arquitetura de projetos por features
-- 🎨 **Aplicar** design system e CSS responsivo
-- 📚 **Documentar** cada etapa do desenvolvimento
-- 💼 **Demonstrar** habilidades para portfolio
+- 🎯 **Learn** React development with TypeScript
+- 🏗️ **Practice** feature-based project architecture
+- 🎨 **Apply** design system and responsive CSS
+- 📚 **Document** each development step
+- 💼 **Demonstrate** skills for portfolio
 
-### 🏫 Escola Ciranda do Saber
-*"Educando com compromisso desde 2006"*
+### 🏫 Ciranda do Saber School
+*"Educating with commitment since 2006"*
 
-**Localização:** Samavá-Bahia  
-**Foco:** Educação infantil e fundamental com valores humanos
+**Location:** Samavá-Bahia, Brazil  
+**Focus:** Early childhood and elementary education with human values
 
-## 🚀 Tecnologias Utilizadas
+## 🚀 Technologies Used
 
 - **Frontend:** React 18 + TypeScript
-- **Estilização:** CSS puro com design system
-- **Estrutura:** Arquitetura por features
-- **Deploy:** Vercel (demo online)
-- **Versionamento:** Git + GitHub
+- **Styling:** Pure CSS with design system
+- **Architecture:** Feature-based structure
+- **Deployment:** Vercel (online demo)
+- **Version Control:** Git + GitHub
 
 ## 🎨 Design System
 
-**Cores da identidade visual:**
-- 🧡 **Laranja Papaya:** `#FF8C42` (cor principal)
-- 🔵 **Azul:** `#4A90E2` (elementos secundários)
-- 🟢 **Verde:** `#7CB342` (status positivos)
-- ⚪ **Branco:** `#FFFFFF` (fundos e textos)
+**Brand identity colors:**
+- 🧡 **Papaya Orange:** `#FF8C42` (primary color)
+- 🔵 **Blue:** `#4A90E2` (secondary elements)
+- 🟢 **Green:** `#7CB342` (positive status)
+- ⚪ **White:** `#FFFFFF` (backgrounds and text)
 
-## 📱 Funcionalidades (Demo)
+## 📱 Features (Demo)
 
-### ✅ Implementadas
-- [x] Login com identidade da escola
-- [x] Dashboard com visão geral
-- [x] Estrutura de navegação
+### ✅ Implemented
+- [x] Login with school branding
+- [x] Dashboard with overview
+- [x] Navigation structure
 
-### 🚧 Em Desenvolvimento
-- [ ] Cadastro de alunos
-- [ ] Controle de pagamentos
-- [ ] Acordos especiais
-- [ ] Relatórios gerenciais
+### 🚧 In Development
+- [ ] Student registration
+- [ ] Payment control
+- [ ] Special agreements
+- [ ] Management reports
 
-### 📊 Dados
-Todos os dados são **mocks/exemplos** para demonstração. Nenhuma informação real é utilizada.
+### 📊 Data
+All data is **mock/sample** for demonstration purposes. No real information is used.
 
-## 🌐 Como Executar
+## 🌐 How to Run
 
-### Pré-requisitos
+### Prerequisites
 - Node.js 18+
-- npm ou yarn
+- npm or yarn
 
-### Instalação
+### Installation
 ```bash
-# Clone o repositório
-git clone https://github.com/SEU_USUARIO/ciranda-do-saber-demo.git
+# Clone the repository
+git clone https://github.com/muriloruass/ciranda-do-saber-demo.git
 
-# Entre na pasta
+# Enter the folder
 cd ciranda-do-saber-demo
 
-# Instale as dependências
+# Install dependencies
 npm install
 
-# Execute em modo desenvolvimento
+# Run in development mode
 npm start
 ```
 
-A aplicação estará disponível em `http://localhost:3000`
+The application will be available at `http://localhost:3000`
 
-## 📂 Estrutura do Projeto
+## 📂 Project Structure
 
 ```
 src/
-├── 📁 components/      # Componentes reutilizáveis
-├── 📁 features/        # Features organizadas por domínio
-│   ├── 🔐 auth/        # Autenticação e login
-│   ├── 📊 dashboard/   # Tela principal
-│   ├── 👥 students/    # Gestão de alunos
-│   ├── 💰 payments/    # Controle financeiro
-│   ├── 📋 agreements/  # Acordos especiais
-│   └── 📈 reports/     # Relatórios
-├── 📁 pages/           # Páginas/rotas
-├── 📁 assets/          # Imagens e recursos
-├── 📁 styles/          # CSS global e design system
-└── 📁 utils/           # Utilitários e mocks
+├── 📁 components/      # Reusable components
+├── 📁 features/        # Features organized by domain
+│   ├── 🔐 auth/        # Authentication and login
+│   ├── 📊 dashboard/   # Main screen
+│   ├── 👥 students/    # Student management
+│   ├── 💰 payments/    # Financial control
+│   ├── 📋 agreements/  # Special agreements
+│   └── 📈 reports/     # Reports
+├── 📁 pages/           # Pages/routes
+├── 📁 assets/          # Images and resources
+├── 📁 styles/          # Global CSS and design system
+└── 📁 utils/           # Utilities and mocks
 ```
 
-## 🎯 Objetivos de Aprendizado
+## 🎯 Learning Objectives
 
-### Técnicos
-- ⚛️ **React Hooks** e functional components
-- 🔷 **TypeScript** para tipagem e qualidade
-- 🎨 **CSS Grid/Flexbox** para layouts responsivos
-- 🏗️ **Arquitetura** escalável por features
-- 📱 **Design responsivo** mobile-first
+### Technical
+- ⚛️ **React Hooks** and functional components
+- 🔷 **TypeScript** for typing and quality
+- 🎨 **CSS Grid/Flexbox** for responsive layouts
+- 🏗️ **Scalable architecture** by features
+- 📱 **Responsive design** mobile-first
 
-### Metodológicos
-- 📝 **Documentação** clara e completa
-- 🔄 **Commits** semânticos e organizados
-- 🧪 **Componentização** reutilizável
-- 📐 **Design system** consistente
+### Methodological
+- 📝 **Clear and complete** documentation
+- 🔄 **Semantic commits** and organized workflow
+- 🧪 **Reusable** componentization
+- 📐 **Consistent** design system
 
-## 🚀 Próximos Passos
+## 🚀 Next Steps
 
-- 🔗 **Backend:** Integração com API (Node.js/Java)
-- 🔒 **Autenticação:** Sistema real de login
-- 📊 **Banco de dados:** Persistência de dados
-- 🧪 **Testes:** Cobertura de testes unitários
+- 🔗 **Backend:** API integration (Node.js/Java)
+- 🔒 **Authentication:** Real login system
+- 📊 **Database:** Data persistence
+- 🧪 **Testing:** Unit test coverage
 - 📱 **PWA:** Progressive Web App
+
+## 📄 License
+
+This project is **educational** and available under MIT license.
+
+## 👨‍💻 Developer
+
+**Murilo Ruas Lucena**
+- 📧 Email: [your-email]
+- 💼 LinkedIn: [your-linkedin]
+- � GitHub: [your-github]
+
+---
+
+*💡 This is a demonstration project for educational purposes. The complete version with real functionalities is under private development.*
 
 ## 🌐 Como Executar
 
