@@ -8,7 +8,7 @@
 
 ## 📋 About the Project
 
-This is an **educational project** that simulates a modern school management system, created to:
+This is an **educational project** for a modern school management system, created to:
 
 - 🎯 **Learn** React development with TypeScript
 - 🏗️ **Practice** feature-based project architecture
@@ -19,8 +19,8 @@ This is an **educational project** that simulates a modern school management sys
 ### 🏫 Ciranda do Saber School
 *"Educating with commitment since 2006"*
 
-**Location:** Samavá-Bahia, Brazil  
-**Focus:** Early childhood and elementary education with human values
+**Location:** Santa Maria da Vitoria - Bahia, Brazil  
+**Focus:** Early childhood and elementary education.
 
 ## 🚀 Technologies Used
 
