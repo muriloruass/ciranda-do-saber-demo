@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Logo } from './components';
+import { Button, Logo, Card } from './components';
 
 function App() {
   return (
@@ -20,53 +20,38 @@ function App() {
             </div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <div className="card">
-                <div className="card-header">
-                  <h3 className="card-title brand-blue">Students</h3>
+              <Card title="Students" className="brand-blue">
+                <p className="body-text">
+                  Manage student registrations, profiles, and academic records.
+                </p>
+                <div className="mt-4">
+                  <Button variant="secondary" size="small">
+                    View Students
+                  </Button>
                 </div>
-                <div className="card-content">
-                  <p className="body-text">
-                    Manage student registrations, profiles, and academic records.
-                  </p>
-                  <div className="mt-4">
-                    <Button variant="secondary" size="small">
-                      View Students
-                    </Button>
-                  </div>
-                </div>
-              </div>
+              </Card>
 
-              <div className="card">
-                <div className="card-header">
-                  <h3 className="card-title brand-green">Payments</h3>
+              <Card title="Payments" className="brand-green">
+                <p className="body-text">
+                  Track payments, generate invoices, and manage financial records.
+                </p>
+                <div className="mt-4">
+                  <Button variant="success" size="small">
+                    View Payments
+                  </Button>
                 </div>
-                <div className="card-content">
-                  <p className="body-text">
-                    Track payments, generate invoices, and manage financial records.
-                  </p>
-                  <div className="mt-4">
-                    <Button variant="success" size="small">
-                      View Payments
-                    </Button>
-                  </div>
-                </div>
-              </div>
+              </Card>
 
-              <div className="card">
-                <div className="card-header">
-                  <h3 className="card-title brand-orange">Reports</h3>
+              <Card title="Reports" className="brand-orange">
+                <p className="body-text">
+                  Generate comprehensive reports and analytics for decision making.
+                </p>
+                <div className="mt-4">
+                  <Button variant="primary" size="small">
+                    View Reports
+                  </Button>
                 </div>
-                <div className="card-content">
-                  <p className="body-text">
-                    Generate comprehensive reports and analytics for decision making.
-                  </p>
-                  <div className="mt-4">
-                    <Button variant="primary" size="small">
-                      View Reports
-                    </Button>
-                  </div>
-                </div>
-              </div>
+              </Card>
             </div>
           </div>
 

@@ -11,5 +11,5 @@ export type { ButtonProps, ButtonVariant, ButtonSize } from './Button';
 export { Logo } from './Logo';
 export type { LogoProps, LogoSize, LogoVariant } from './Logo';
 
-// TODO: Add other components as they are created
-// export { Card } from './Card';
+export { Card } from './Card';
+export type { CardProps } from './Card';
