@@ -1,7 +1,8 @@
 # 🎓 Ciranda do Saber - School Management Demo
 
-<!-- ![Ciranda do Saber Logo](src/assets/logo-ciranda.png) -->
-*Logo will be added soon*
+<div align="center">
+  <img src="src/assets/ciranda-logo.png" alt="Ciranda do Saber Logo" width="200"/>
+</div>
 
 > **DEMO** school management web application developed for personal learning and showcasing React + TypeScript skills.
 
