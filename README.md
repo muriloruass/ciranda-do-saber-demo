@@ -1,43 +1,159 @@
-# Getting Started with Create React App
+# 🎓 Ciranda do Saber - Demo Gestão Escolar
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Ciranda do Saber Logo](src/assets/logo-ciranda.png)
 
-## Available Scripts
+> **DEMO** de aplicação web para gestão escolar desenvolvida para aprendizado pessoal e demonstração de habilidades em React + TypeScript.
 
-In the project directory, you can run:
+## 📋 Sobre o Projeto
 
-### `npm start`
+Este é um **projeto educacional** que simula um sistema de gestão escolar moderno, criado para:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- 🎯 **Aprender** desenvolvimento React com TypeScript
+- 🏗️ **Praticar** arquitetura de projetos por features
+- 🎨 **Aplicar** design system e CSS responsivo
+- 📚 **Documentar** cada etapa do desenvolvimento
+- 💼 **Demonstrar** habilidades para portfolio
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🏫 Escola Ciranda do Saber
+*"Educando com compromisso desde 2006"*
 
-### `npm test`
+**Localização:** Samavá-Bahia  
+**Foco:** Educação infantil e fundamental com valores humanos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Tecnologias Utilizadas
 
-### `npm run build`
+- **Frontend:** React 18 + TypeScript
+- **Estilização:** CSS puro com design system
+- **Estrutura:** Arquitetura por features
+- **Deploy:** Vercel (demo online)
+- **Versionamento:** Git + GitHub
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🎨 Design System
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Cores da identidade visual:**
+- 🧡 **Laranja Papaya:** `#FF8C42` (cor principal)
+- 🔵 **Azul:** `#4A90E2` (elementos secundários)
+- 🟢 **Verde:** `#7CB342` (status positivos)
+- ⚪ **Branco:** `#FFFFFF` (fundos e textos)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📱 Funcionalidades (Demo)
 
-### `npm run eject`
+### ✅ Implementadas
+- [x] Login com identidade da escola
+- [x] Dashboard com visão geral
+- [x] Estrutura de navegação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 🚧 Em Desenvolvimento
+- [ ] Cadastro de alunos
+- [ ] Controle de pagamentos
+- [ ] Acordos especiais
+- [ ] Relatórios gerenciais
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 📊 Dados
+Todos os dados são **mocks/exemplos** para demonstração. Nenhuma informação real é utilizada.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🌐 Como Executar
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
+
+### Instalação
+```bash
+# Clone o repositório
+git clone https://github.com/SEU_USUARIO/ciranda-do-saber-demo.git
+
+# Entre na pasta
+cd ciranda-do-saber-demo
+
+# Instale as dependências
+npm install
+
+# Execute em modo desenvolvimento
+npm start
+```
+
+A aplicação estará disponível em `http://localhost:3000`
+
+## 📂 Estrutura do Projeto
+
+```
+src/
+├── 📁 components/      # Componentes reutilizáveis
+├── 📁 features/        # Features organizadas por domínio
+│   ├── 🔐 auth/        # Autenticação e login
+│   ├── 📊 dashboard/   # Tela principal
+│   ├── 👥 students/    # Gestão de alunos
+│   ├── 💰 payments/    # Controle financeiro
+│   ├── 📋 agreements/  # Acordos especiais
+│   └── 📈 reports/     # Relatórios
+├── 📁 pages/           # Páginas/rotas
+├── 📁 assets/          # Imagens e recursos
+├── 📁 styles/          # CSS global e design system
+└── 📁 utils/           # Utilitários e mocks
+```
+
+## 🎯 Objetivos de Aprendizado
+
+### Técnicos
+- ⚛️ **React Hooks** e functional components
+- 🔷 **TypeScript** para tipagem e qualidade
+- 🎨 **CSS Grid/Flexbox** para layouts responsivos
+- 🏗️ **Arquitetura** escalável por features
+- 📱 **Design responsivo** mobile-first
+
+### Metodológicos
+- 📝 **Documentação** clara e completa
+- 🔄 **Commits** semânticos e organizados
+- 🧪 **Componentização** reutilizável
+- 📐 **Design system** consistente
+
+## 🚀 Próximos Passos
+
+- 🔗 **Backend:** Integração com API (Node.js/Java)
+- 🔒 **Autenticação:** Sistema real de login
+- 📊 **Banco de dados:** Persistência de dados
+- 🧪 **Testes:** Cobertura de testes unitários
+- 📱 **PWA:** Progressive Web App
+
+## 🌐 Como Executar
+
+### Pré-requisitos
+- Node.js 18+
+- npm ou yarn
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/SEU_USUARIO/ciranda-do-saber-demo.git
+
+# Entre na pasta
+cd ciranda-do-saber-demo
+
+# Instale as dependências
+npm install
+
+# Execute em modo desenvolvimento
+npm start
+```
+
+A aplicação estará disponível em `http://localhost:3000`
+
+## 📄 Licença
+
+Este projeto é **educacional** e está disponível sob licença MIT.
+
+## 👨‍💻 Desenvolvedor
+
+**Murilo Ruas Lucena**
+- 📧 Email: [seu-email]
+- 💼 LinkedIn: [seu-linkedin]
+- 🐱 GitHub: [seu-github]
+
+---
+
+*💡 Este é um projeto de demonstração para fins educacionais. A versão completa com funcionalidades reais está em desenvolvimento privado.*
 
 ## Learn More
 
