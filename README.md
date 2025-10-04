@@ -1,6 +1,7 @@
 # 🎓 Ciranda do Saber - Demo Gestão Escolar
 
-![Ciranda do Saber Logo](src/assets/logo-ciranda.png)
+<!-- ![Ciranda do Saber Logo](src/assets/logo-ciranda.png) -->
+*Logo será adicionada em breve*
 
 > **DEMO** de aplicação web para gestão escolar desenvolvida para aprendizado pessoal e demonstração de habilidades em React + TypeScript.
 
