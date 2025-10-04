@@ -1,6 +1,5 @@
 import React from 'react';
-import cirandaLogo from './assets/ciranda-logo.png';
-import { Button } from './components';
+import { Button, Logo } from './components';
 
 function App() {
   return (
@@ -8,18 +7,8 @@ function App() {
       <div className="container">
         <header className="page-header">
           <div className="flex items-center justify-center">
-            <img 
-              src={cirandaLogo} 
-              alt="Ciranda do Saber Logo" 
-              style={{ width: '120px', height: 'auto' }}
-            />
+            <Logo size="large" showText />
           </div>
-          <h1 className="page-title text-center">
-            Ciranda do Saber
-          </h1>
-          <p className="page-subtitle text-center">
-            School Management System Demo
-          </p>
         </header>
 
         <main className="main-content">
@@ -76,6 +65,70 @@ function App() {
                       View Reports
                     </Button>
                   </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="section">
+            <div className="section-header">
+              <h2 className="section-title brand-green">
+                Logo Component Demo
+              </h2>
+            </div>
+            
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div>
+                <h3 className="heading-4 mb-4">Logo Sizes</h3>
+                <div className="flex flex-wrap items-center gap-6">
+                  <div className="text-center">
+                    <Logo size="small" />
+                    <p className="text-xs text-gray-500 mt-2">Small</p>
+                  </div>
+                  <div className="text-center">
+                    <Logo size="medium" />
+                    <p className="text-xs text-gray-500 mt-2">Medium</p>
+                  </div>
+                  <div className="text-center">
+                    <Logo size="large" />
+                    <p className="text-xs text-gray-500 mt-2">Large</p>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="heading-4 mb-4">Logo with Text</h3>
+                <div className="flex flex-col gap-6">
+                  <div className="text-center">
+                    <Logo size="medium" showText />
+                  </div>
+                  <div className="text-center">
+                    <Logo size="large" showText />
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="heading-4 mb-4">Interactive Logo</h3>
+                <div className="text-center">
+                  <Logo 
+                    size="medium" 
+                    showText 
+                    clickable 
+                    onClick={() => alert('Logo clicked! Navigate to home.')}
+                  />
+                  <p className="text-xs text-gray-500 mt-2">Click me!</p>
+                </div>
+              </div>
+              
+              <div>
+                <h3 className="heading-4 mb-4">Custom Text</h3>
+                <div className="text-center">
+                  <Logo 
+                    size="medium" 
+                    showText 
+                    customText="Welcome Demo!"
+                  />
                 </div>
               </div>
             </div>
